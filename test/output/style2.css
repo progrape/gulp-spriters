@@ -1,0 +1,33 @@
+
+.icon_scan{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style2_z@2x.png") no-repeat 0px 0px;
+-webkit-background-size: 90px 90px;
+background-size: 90px 90px;
+}
+
+.icon_shake{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style2_z@2x.png") no-repeat -45px 0px;
+-webkit-background-size: 90px 90px;
+background-size: 90px 90px;
+}
+
+.icon_nearby{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style2_z@2x.png") no-repeat 0px -45px;
+-webkit-background-size: 90px 90px;
+background-size: 90px 90px;
+}

@@ -1,0 +1,36 @@
+
+.icon_button2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: url("./images/button.png?__sprite");
+}
+
+.icon_msg2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: url("./images/msg.png?__sprite");
+}
+
+.icon_shake2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: url("./images/shake@2x.png?__sprite");
+}
+
+.icon_nearby2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: url("./images/nearby@2x.png?__sprite");
+}

@@ -1,0 +1,41 @@
+
+
+.icon_button{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style_z.png") no-repeat -56px 0px;
+
+}
+
+.icon_button_same{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style_z.png") no-repeat -56px 0px;
+
+}
+
+.icon_msg{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style_z.png") no-repeat 0px 0px;
+
+}
+
+.icon_toast{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style_z.png") no-repeat -112px 0px;
+
+}

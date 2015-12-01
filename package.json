@@ -1,0 +1,26 @@
+{
+  "name": "gulp-spriters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/progrape/gulp-spriters"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bin-pack": "^1.0.1",
+    "bluebird": "^3.0.5",
+    "gulp-util": "^3.0.1",
+    "jimp": "^0.2.19",
+    "lodash": "^3.10.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "vinyl-fs": "^2.2.1"
+  }
+}
