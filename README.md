@@ -1,4 +1,4 @@
-gulp-sprites
+gulp-sprites ![build](https://travis-ci.org/progrape/gulp-spriters.svg)
 ===
 
 
