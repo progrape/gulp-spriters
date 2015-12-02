@@ -1,4 +1,4 @@
-gulp-sprites ![npm version](https://img.shields.io/npm/v/gulp-spriters.svg?style=flat-square) ![build](https://travis-ci.org/progrape/gulp-spriters.svg)
+gulp-sprites ![npm version](https://img.shields.io/npm/v/gulp-spriters.svg) ![build](https://travis-ci.org/progrape/gulp-spriters.svg)
 ===
 
 
