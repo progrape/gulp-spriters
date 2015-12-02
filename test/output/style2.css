@@ -31,3 +31,12 @@ background-size: 90px 90px;
 -webkit-background-size: 90px 90px;
 background-size: 90px 90px;
 }
+
+.icon_not_exist{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: url("./images/not_exist@2x.png?__sprite");
+}

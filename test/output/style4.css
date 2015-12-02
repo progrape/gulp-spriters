@@ -1,36 +1,32 @@
 
-.icon_scan{
-    display: inline-block;
-    vertical-align: middle;
-    width: 45px;
-    height: 45px;
-    /* here will be replace sprite image path, and auto set the background-position */
-    background: url("./images/scan@2x.png?__sprite");
-}
-
-.icon_shake{
-    display: inline-block;
-    vertical-align: middle;
-    width: 45px;
-    height: 45px;
-    /* here will be replace sprite image path, and auto set the background-position */
-    background: url("./images/shake@2x.png?__sprite");
-}
-
-.icon_nearby{
-    display: inline-block;
-    vertical-align: middle;
-    width: 45px;
-    height: 45px;
-    /* here will be replace sprite image path, and auto set the background-position */
-    background: url("./images/nearby@2x.png?__sprite");
-}
-
-.icon_not_exist{
+.icon_button3{
     display: inline-block;
     vertical-align: middle;
     width: 56px;
     height: 56px;
     /* here will be replace sprite image path, and auto set the background-position */
-    background: url("./images/not_exist@2x.png?__sprite");
+    background: transparent url("style4_z.png") no-repeat 0px 0px;
+
+}
+
+.icon_shake3{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style4_z@2x.png") no-repeat 0px 0px;
+-webkit-background-size: 90px 45px;
+background-size: 90px 45px;
+}
+
+.icon_root{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: transparent url("style4_z@2x.png") no-repeat -45px 0px;
+-webkit-background-size: 90px 45px;
+background-size: 90px 45px;
 }

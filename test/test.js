@@ -63,4 +63,20 @@ describe('gulp-spriters', function () {
             })
             .on('end', done);
     });
+
+    it('should support `rootPath` params', function (done) {
+
+        vfs.src('test/fixtures/style4.css')
+            .pipe(sprite({rootPath: path.join(__dirname, 'fixtures/images')}))
+            .pipe(through.obj(function (vinyl, encoding, cb){
+                cb(null, vinyl);
+            }))
+            .pipe(vfs.dest('./test/output'))
+            .on('data', function (){
+
+            })
+            .on('end', done);
+    });
+
+
 });
